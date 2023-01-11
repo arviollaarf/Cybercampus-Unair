@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.aa {
+  display: flex;
+  justify-content: space-between;
+  position: fixed !important;
+  background: linear-gradient(to right, #004a7cef, #6785a4d5);
+  width: 100%;
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+}
+.aa img {
+  margin: 5px;
+  margin-left: 70px;
+}
+.aa ul {
+  display: flex;
+  margin-right: 70px;
+}
+.aa ul li {
+  padding: 15px;
+  margin-top: 15px;
+}
+.aa ul a {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+.aa ul a:hover {
+  color: #e4a23e;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  background-image: url("../img/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 59.5px; */
+  padding-bottom: 130px;
+}
+header .profile {
+  margin-left: 40px;
+}
+header .profile h1 {
+  margin-top: 30px;
+  color: white;
+  font-size: 38px;
+  line-height: 50px;
+}
+header .profile p {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.btn-header {
+  margin-top: 80px;
+}
+.btn-header a {
+  padding: 20px 70px;
+  background-color: #e4a23e;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+}
+.btn-header a:hover {
+  background-color: #db9326;
+}
+.btn-header .ds {
+  padding: 20px 90px;
+}
+
+/* pengumuman slider */
+.bingkai {
+  padding: 20px;
+  background-color: white;
+  border-radius: 100px;
+}
+.pengumuman h1 {
+  margin-top: 100px;
+  text-align: center;
+  color: #074177;
+}
+/* footer */
+footer {
+  margin-top: 170px;
+  background-color: #074177;
+  padding: 50px;
+  color: white;
+  padding-left: 100px;
+}
+footer h1 {
+  text-decoration-line: underline;
+}
+footer p {
+  margin: 50px 0;
+}
+footer .logo {
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+footer .container {
+  display: flex;
+}
+footer .list {
+  display: flex;
+  padding: 20px 90px 0 0;
+}
+footer a {
+  color: white;
+  margin-left: 30px;
+}

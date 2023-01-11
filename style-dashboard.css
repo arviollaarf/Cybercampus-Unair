@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  display: flex;
+  padding: 70px;
+}
+section h1 {
+  font-size: 50px;
+  color: #2e4e85;
+}
+section p {
+  margin-top: 20px;
+  color: #5d7079;
+  font-weight: 600;
+}
+.login {
+  width: 500px;
+  margin-left: 60px;
+}
+.login form {
+  margin-top: 30px;
+}
+.login label {
+  color: #2e4e85;
+  font-weight: 500;
+  font-size: 20px;
+}
+#username,
+#password {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 12px;
+  width: 400px;
+  border-radius: 8px;
+  border: 0.75px solid #5d7079;
+}
+.login .submit {
+  text-align: center;
+  padding: 14px;
+  margin-top: 20px;
+  border: none;
+  background-color: #00b1fa;
+  color: white;
+  border-radius: 8px;
+  width: 170px;
+}
+.login .submit:hover {
+  background-color: #0a94cf;
+  cursor: pointer;
+}
+.login .pass {
+  margin-top: 20px;
+}
+.pass a {
+  color: #00b1fa;
+  font-weight: 500;
+}
+.mhs {
+  margin-top: 10px;
+}
+.profile-campus table {
+  height: 300px;
+  width: 600px;
+  background-color: #081d30;
+  color: white;
+}
+.profile-campus table td {
+  padding: 20px;
+}
+.profile-campus table tr {
+  border: 1px solid white;
+}
+/* home */
+.header-dash h1 {
+  color: #356991;
+}
+
+.header-dash {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.header-dash h1 {
+  color: #356991;
+  font-size: 40px;
+}
+.header-dash p {
+  margin-top: 7px;
+  margin-left: 20px;
+  color: #e8b05e;
+  font-size: 35px;
+  font-weight: 500;
+}
+.profile {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 600px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.profile a {
+  color: black;
+  text-decoration: 2px underline;
+  font-weight: 500;
+}
+.profile .active {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #9eddf9;
+  border-radius: 100px;
+  text-align: center;
+}
+.fitur {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: wrap;
+  text-align: center;
+  margin-top: 50px;
+}
+.foto {
+  height: 170px;
+  width: 170px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: center;
+}
+.card-fitur {
+  width: 250px;
+  margin: 30px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px rgb(206, 206, 206);
+}
+.card-fitur a {
+  color: #616161;
+}
+.foot-dash {
+  margin-top: 50px;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+.foot-dash {
+  color: #5d7079;
+}
+.logout {
+  padding: 10px 30px;
+  background-color: #ffd232;
+  font-weight: 600;
+}
+.pembayaran table {
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  border: 0;
+  width: 1000px;
+  background-color: #257cab;
+}
+.pembayaran table td {
+  background-color: rgb(243, 243, 243);
+  padding-left: 20px;
+}
+.pembayaran table .title td {
+  background-color: #257cab !important;
+}
+.pembayaran .view {
+  background-color: #51b423;
+  padding: 5px;
+  text-align: center;
+  border-radius: 100px;
+}
+.pembayaran .view a {
+  color: white;
+}
+/* keringanan UKT */
+.text-keringanan {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.text-keringanan .menuju {
+  margin: auto;
+  margin-top: 70px;
+  padding: 10px;
+  background-color: #0c75d6;
+  width: 500px;
+  border-radius: 100px;
+  color: white;
+}
+/* profile mahasiswa */
+.pp-profile {
+  margin: 150px 50px 0px 140px;
+  width: 600px;
+}
+.pp-profile a {
+  text-decoration: underline;
+  color: black;
+  font-size: 25px;
+}
+.pp-profile a {
+  color: black;
+  text-decoration: 2px underline;
+  font-weight: 500;
+}
+.pp-profile .active {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #9eddf9;
+  border-radius: 100px;
+  text-align: center;
+  width: 200px;
+}
+/* KONTEN DOSEN */
+.konten-dosen {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+.sidebar ul {
+  width: 300px;
+  margin-top: 30px;
+}
+.sidebar ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #0c75d6;
+  margin: 4px;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+}
+.form-dosen {
+  width: 100%;
+  font-weight: 500;
+}
+.form-dosen table {
+  width: 80%;
+  background-color: #d9d9d9;
+  margin-left: 70px;
+}
+.form-dosen td {
+  padding: 10px;
+}
+.form-dosen table input {
+  width: 304px;
+  padding: 5px;
+}
+/* pedoman */
+.pedoman-bro {
+  padding: 20px;
+  background-color: #2e4e85;
+  color: white;
+  margin: 20px 20px 0px 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.direktorat {
+  padding: 20px;
+  background-color: #ffd232;
+  font-weight: 600;
+  margin: 0px 20px 0px 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.table-pedoman {
+  margin: 21px;
+}
+.tabl {
+  width: 100%;
+  background-color: black;
+}
+.tabl tr {
+  background-color: white;
+}
+.tabl td {
+  padding: 10px;
+}
